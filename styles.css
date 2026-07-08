@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #333333;
+  --panel: #3d3d3d;
+  --panel-light: #f7f7f7;
+  --text: #f7f7f7;
+  --muted: #d3d3d3;
+  --ink: #222222;
+  --accent: #f39b03;
+  --line: rgba(247, 247, 247, 0.18);
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.page {
+  width: min(980px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0 72px;
+}
+
+.hero {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 32px;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(42px, 7vw, 78px);
+  line-height: 0.94;
+  letter-spacing: -0.06em;
+}
+
+.dek {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 18px;
+  margin: 22px 0 0;
+}
+
+.faq-list {
+  display: grid;
+  gap: 14px;
+}
+
+.faq-item {
+  background: var(--panel-light);
+  color: var(--ink);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  padding: 22px 24px;
+  font-weight: 800;
+  font-size: 19px;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  color: var(--accent);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.faq-item[open] summary::after {
+  content: "×";
+}
+
+.answer {
+  padding: 0 24px 24px;
+  color: #333333;
+}
+
+.answer p {
+  margin: 0 0 14px;
+}
+
+.answer ul {
+  columns: 2;
+  column-gap: 36px;
+  padding-left: 20px;
+  margin: 0 0 16px;
+}
+
+.answer li {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
+
+.footer {
+  margin-top: 44px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--muted);
+}
+
+.footer p {
+  margin: 0;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .page {
+    width: min(100% - 24px, 980px);
+    padding-top: 36px;
+  }
+
+  .faq-item summary {
+    padding: 18px;
+    font-size: 17px;
+  }
+
+  .answer {
+    padding: 0 18px 20px;
+  }
+
+  .answer ul {
+    columns: 1;
+  }
+}
