@@ -38,13 +38,17 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 88px;
+  margin: 0 0 72px 0;
+  padding: 0;
   text-decoration: none;
+  align-self: flex-start;
 }
 
 .brand-logo img {
   display: block;
-  width: min(190px, 38vw);
+  margin: 0;
+
+  width: min(96px, 14vw);
   height: auto;
 }
 
@@ -168,7 +172,7 @@ h1 {
   }
 
   .brand-logo img {
-    width: min(160px, 56vw);
+    width: min(84px, 22vw);
   }
 
   h1 {
