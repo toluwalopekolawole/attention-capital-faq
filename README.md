@@ -2,8 +2,10 @@
 
 Static FAQ page for Attention Capital.
 
-## Update GitHub
+Upload these files to the existing GitHub repository root:
 
-Upload `index.html` and `styles.css` to the existing repository root and commit changes.
+- `index.html`
+- `styles.css`
+- `README.md`
 
 Vercel will automatically redeploy after the commit.
