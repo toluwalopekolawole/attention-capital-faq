@@ -2,10 +2,6 @@
 
 Static FAQ page for Attention Capital.
 
-Upload these files to the existing GitHub repository root:
-
-- `index.html`
-- `styles.css`
-- `README.md`
+Upload `index.html`, `styles.css`, and the `assets` folder to the existing GitHub repository root.
 
 Vercel will automatically redeploy after the commit.
