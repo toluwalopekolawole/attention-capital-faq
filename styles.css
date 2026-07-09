@@ -44,7 +44,7 @@ body {
 
 .brand-logo img {
   display: block;
-  width: min(150px, 30vw);
+  width: min(300px, 42vw);
   height: auto;
 }
 
@@ -168,7 +168,7 @@ h1 {
   }
 
   .brand-logo img {
-    width: min(120px, 46vw);
+    width: min(210px, 60vw);
   }
 
   h1 {
