@@ -9,7 +9,7 @@ Upload these files to the existing GitHub repository root:
 - `README.md`
 - `attention-capital-logo.png`
 
-This version uses the final logo and keeps it linked to:
+This version uses the newly attached logo and keeps it linked to:
 
 https://attentioncapital.beehiiv.com/
 
