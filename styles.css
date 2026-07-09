@@ -48,7 +48,7 @@ body {
   display: block;
   margin: 0;
 
-  width: min(96px, 14vw);
+  width: min(82px, 12vw);
   height: auto;
 }
 
@@ -172,7 +172,7 @@ h1 {
   }
 
   .brand-logo img {
-    width: min(84px, 22vw);
+    width: min(72px, 20vw);
   }
 
   h1 {

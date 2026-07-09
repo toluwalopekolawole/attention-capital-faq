@@ -9,9 +9,7 @@ Upload these files to the existing GitHub repository root:
 - `README.md`
 - `attention-capital-logo.png`
 
-This version replaces the top logo with the attached metallic "a" mark,
-crops it so it is not shifted to the side, and aligns it with the left edge
-of the "Frequently Asked Questions" heading.
+This version keeps the aligned metallic "a" logo, but displays it slightly smaller.
 
 The logo links back to:
 
