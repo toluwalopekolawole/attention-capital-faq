@@ -9,4 +9,8 @@ Upload these files to the existing GitHub repository root:
 - `README.md`
 - `attention-capital-logo.png`
 
+The logo links back to:
+
+https://attentioncapital.beehiiv.com/
+
 Vercel will automatically redeploy after the commit.
