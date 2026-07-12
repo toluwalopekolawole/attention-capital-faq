@@ -9,9 +9,7 @@ Upload these files to the existing GitHub repository root:
 - `README.md`
 - `attention-capital-logo.png`
 
-This version keeps the aligned metallic "a" logo, but displays it slightly smaller.
-
-The logo links back to:
+This version updates the FAQ copy while keeping the approved black background, green borders, aligned smaller logo, and logo link back to:
 
 https://attentioncapital.beehiiv.com/
 

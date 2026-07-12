@@ -142,6 +142,15 @@ h1 {
   color: var(--muted);
 }
 
+.answer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.answer a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   margin-top: 92px;
   padding-top: 34px;
